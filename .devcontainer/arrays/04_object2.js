@@ -46,11 +46,33 @@ const obj3 = { 5: "a", 6:"b",}
  }
 ]
 abc[1].email
-console.log(we);
-console.log(Object.keys(we));
-console.log(Object.values(we));
-console.log(Object.entries(we));
+//console.log(we);
+//console.log(Object.keys(we));
+//console.log(Object.values(we));
+//console.log(Object.entries(we));
 
-console.log(Object.hasOwnProperty('name'));
+//console.log(Object.hasOwnProperty('name'));
 
+//Destructuring of objects
 
+const hdfc ={
+    id : "67890",
+    email : "hdfc@gmail.com",
+}
+//console.log(hdfc.email);
+//Another method and mostly used by every one and that is
+const {email : ml} = hdfc //(This method is used in React.Js)(This is called Destruction)
+const {id : d} = hdfc
+console.log(ml);
+console.log(d);
+
+//JSON TALK
+//In json it is declared same as object but without any class name only with curly braces and both key and value side are in string form 
+{
+    "id" : "1234",
+    "name" : "vibhor",
+}
+[
+    {},// Array format also
+    {},
+]
