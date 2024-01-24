@@ -68,11 +68,11 @@ console.log(d);
 
 //JSON TALK
 //In json it is declared same as object but without any class name only with curly braces and both key and value side are in string form 
-{
+//{
     "id" : "1234",
     "name" : "vibhor",
-}
-[
+//}
+//[
     {},// Array format also
     {},
-]
+//]
