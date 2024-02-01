@@ -6,10 +6,17 @@
     <title>DOM Learning</title>
 </head>
 <body>
-    <div class="bg-red">div tag</div>
-    <h1 id="title" class="color;blue">heading</h1>
-    <p>this is a paragraph<span style="display:none ">which is good</span></p>
-    
+    <div>
+        <h1 id="title" class="heading">heading <span style="display:none ">which is good</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>this is a paragraph</p>
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+        </ul>
 </body>
 </html>
 
@@ -31,3 +38,28 @@
 
  //Document.querySelector('h2')
  //Document.querySelector('#title')
+
+ //Document.querySelector('ul')
+ //const myul=document.querySelector('ul')
+ //myul.querySelector('li')/// query selector call only the first value
+ //const one=myul.querySelector('li')
+ //one.style.backgroundColor='red'
+ 
+ // for nodelist
+
+ //document.querySelectorAll('li')//querySelectorAll calls all the value as a nodelist
+ //const first=document.querySelectorAll('li')
+ //first[0].style.color='green'
+ //first[1].style.backgroundColor='yellow'
+ //first.forEach(function(l) {              // when querySelectorAll gives all nodelist then it contains foreach loop in it 
+    l.style.backgroundColor='green'
+})
+
+//for HTMLCollection
+
+//document.getElementsByClassName('list-item')
+//const vib=document.getElementsByClassName('list-item')
+//Array.from(vib). (converting to array to work for forEach loop or Map)
+//const temp=Array.from(vib)
+//temp
+//
